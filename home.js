@@ -14,6 +14,7 @@ function moveToResume() {
     document.getElementById("project").style.opacity = 0;
     document.getElementById("project").style.top = "-60%";
     document.getElementById("contact").style.opacity = 0;
+    document.title = "Resume | wanDev";
 }
 
 function moveToProject() {
@@ -23,6 +24,7 @@ function moveToProject() {
     document.getElementById("resume").style.opacity = 0;
     document.getElementById("resume").style.top = "-15%";
     document.getElementById("homepage").style.opacity = 0;
+    document.title = "Project | wanDev";
 
 }
 
@@ -33,5 +35,6 @@ function moveToContact() {
     document.getElementById("resume").style.opacity = 0;
     document.getElementById("resume").style.top = "-15%";
     document.getElementById("homepage").style.opacity = 0;
+    document.title = "Project | wanDev";
 
 }
